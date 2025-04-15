@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="asian_difficulty"
+version="1.0.0"
+displayName="Asian Difficulty"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="qingchenyou, MCreator"
+description="Try out Minecraft's new difficulty, developed by Chinese player Qingchenyou"
+
+[[dependencies.asian_difficulty]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

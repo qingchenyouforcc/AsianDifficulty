@@ -1,0 +1,573 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlayerColdEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "player_cold_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/PlayerColdEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "PlayerFluEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "player_flu_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/PlayerFluEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerEffect"
+    },
+    {
+      "name": "FluEffectRun",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "flu_effect_run",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/FluEffectRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerEffect"
+    },
+    {
+      "name": "FluEffect",
+      "type": "potioneffect",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "flu_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/potion/FluEffectMobEffect.java"
+        ]
+      },
+      "path": "~/PlayerEffect"
+    },
+    {
+      "name": "AcrophobiaEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "acrophobia_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/AcrophobiaEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "HeavyloadEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "heavyload_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/HeavyloadEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "SuddendeathEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "suddendeath_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/SuddendeathEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "CarbonPoisoningEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "carbon_poisoning_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/CarbonPoisoningEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "TooHotEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "too_hot_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/TooHotEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "RawEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "raw_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/RawEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "FeardarkEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "feardark_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/FeardarkEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "TooPoorEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "too_poor_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/TooPoorEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "InfectedbyZombiesEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "infectedby_zombies_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/InfectedbyZombiesEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "TiredSquattingEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "tired_squatting_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/TiredSquattingEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "ShiftRestart",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "shift_restart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/ShiftRestartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Init"
+    },
+    {
+      "name": "JumpRestart",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "jump_restart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/JumpRestartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Init"
+    },
+    {
+      "name": "TriedJumpEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tried_jump_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/TriedJumpEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "CutHalfEvent",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "cut_half_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/CutHalfEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PlayerDeathEvent"
+    },
+    {
+      "name": "Sleep",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "sleep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/asiandifficulty/procedures/SleepProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Init"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:forge:raw_tag": [
+      "Items.PORKCHOP",
+      "Items.FISH#0",
+      "Items.BEEF",
+      "Items.MUTTON",
+      "Items.CHICKEN",
+      "Items.RABBIT"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "death.attack.raw": "%1$s don\u0027t like to eat raw meat",
+      "death.attack.cuthalf": "%1$s was literally cut in half  ",
+      "death.attack.raw.player": "%1$s Because eating raw meat is doomed to death",
+      "death.attack.tootiredjump": "%1$s Jumping feet hurt",
+      "death.attack.infected": "%1 $s died of zombie infection",
+      "death.attack.suddendeath": "%1$s died suddenly",
+      "death.attack.heavyload": "%1$s Heavy load",
+      "death.attack.co": "%1$s Carbon monoxide poisoning",
+      "death.attack.acrophobia": "%1$s Died because of fear of heights",
+      "death.attack.feardark": "%1$s Fear of the dark",
+      "death.attack.toopoor": "%1$s Too poor",
+      "death.attack.cold": "%1$s are frozen to death",
+      "death.attack.tootiredshift": "%1$s squatting too tired",
+      "effect.asian_difficulty.flu_effect": "Cold",
+      "death.attack.toohot": "%1$s Too hot",
+      "death.attack.flu": "%1$s Died of a cold"
+    },
+    "zh_cn": {
+      "death.attack.raw": "%1$s 因为对生的食物感到不满意而死",
+      "death.attack.cuthalf": "%1$s 真的被切成两半了",
+      "death.attack.raw.player": "%1$s 因为对生的食物不满意而一定会死",
+      "death.attack.tootiredjump": "%1$s 跳的脚疼死了",
+      "death.attack.infected": "%1$s 因为被僵尸感染而亡",
+      "death.attack.suddendeath": "%1$s 过度劳累而猝死了",
+      "death.attack.heavyload": "%1$s 死于自己的贪婪(负载过重)",
+      "death.attack.co": "%1$s 一氧化碳中毒而亡",
+      "death.attack.acrophobia": "%1$s 因为恐高而被吓死",
+      "death.attack.feardark": "%1$s 因不能接受完全黑暗而死",
+      "death.attack.toopoor": "%1$s 穷到不能挖钻石(Emotional Damage)",
+      "death.attack.cold": "%1$s 被活活冻死",
+      "death.attack.tootiredshift": "%1$s 因为蹲的太多累死了",
+      "effect.asian_difficulty.flu_effect": "感冒",
+      "death.attack.toohot": "%1$s 真的热到裂开了",
+      "death.attack.flu": "%1$s 死于伤寒"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "PlayerDeathEvent",
+        "children": []
+      },
+      {
+        "name": "PlayerEffect",
+        "children": []
+      },
+      {
+        "name": "Init",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "asian_difficulty",
+    "modName": "Asian Difficulty",
+    "version": "1.0.0",
+    "description": "Try out Minecraft\u0027s new difficulty, developed by Chinese player Qingchenyou",
+    "author": "qingchenyou, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.asiandifficulty"
+  },
+  "mcreatorVersion": 202400229712
+}

@@ -1,0 +1,18 @@
+{
+  "death.attack.raw": "%1$s 因为对生的食物感到不满意而死",
+  "death.attack.cuthalf": "%1$s 真的被切成两半了",
+  "death.attack.raw.player": "%1$s 因为对生的食物不满意而一定会死",
+  "death.attack.tootiredjump": "%1$s 跳的脚疼死了",
+  "death.attack.infected": "%1$s 因为被僵尸感染而亡",
+  "death.attack.suddendeath": "%1$s 过度劳累而猝死了",
+  "death.attack.heavyload": "%1$s 死于自己的贪婪(负载过重)",
+  "death.attack.co": "%1$s 一氧化碳中毒而亡",
+  "death.attack.acrophobia": "%1$s 因为恐高而被吓死",
+  "death.attack.feardark": "%1$s 因不能接受完全黑暗而死",
+  "death.attack.toopoor": "%1$s 穷到不能挖钻石(Emotional Damage)",
+  "death.attack.cold": "%1$s 被活活冻死",
+  "death.attack.tootiredshift": "%1$s 因为蹲的太多累死了",
+  "effect.asian_difficulty.flu_effect": "感冒",
+  "death.attack.toohot": "%1$s 真的热到裂开了",
+  "death.attack.flu": "%1$s 死于伤寒"
+}

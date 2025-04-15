@@ -1,0 +1,18 @@
+{
+  "death.attack.raw": "%1$s don\u0027t like to eat raw meat",
+  "death.attack.cuthalf": "%1$s was literally cut in half  ",
+  "death.attack.raw.player": "%1$s Because eating raw meat is doomed to death",
+  "death.attack.tootiredjump": "%1$s Jumping feet hurt",
+  "death.attack.infected": "%1 $s died of zombie infection",
+  "death.attack.suddendeath": "%1$s died suddenly",
+  "death.attack.heavyload": "%1$s Heavy load",
+  "death.attack.co": "%1$s Carbon monoxide poisoning",
+  "death.attack.acrophobia": "%1$s Died because of fear of heights",
+  "death.attack.feardark": "%1$s Fear of the dark",
+  "death.attack.toopoor": "%1$s Too poor",
+  "death.attack.cold": "%1$s are frozen to death",
+  "death.attack.tootiredshift": "%1$s squatting too tired",
+  "effect.asian_difficulty.flu_effect": "Cold",
+  "death.attack.toohot": "%1$s Too hot",
+  "death.attack.flu": "%1$s Died of a cold"
+}
